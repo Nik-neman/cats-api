@@ -1,7 +1,7 @@
 version: '3'
 services:
   db-cats-api:
-    image: postgres:12
+    image: postgres:9
     restart: always
     ports:
       - 5444:5432
